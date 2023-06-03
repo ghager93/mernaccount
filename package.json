@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "MERN-stack account management",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "build": "babel index.js -d dist",
     "start": "nodemon --exec node_modules/.bin/babel-node index.js",  
